@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> (✿◕‿◕✿)Welcome to My Personal Website - Imas Masrurroh</title>
+    <style>
+        img{
+            border-radius: 50%;
+        }
+    #text-container {
+        font-size: 32px;
+        text-align: center;
+    }
+    </style>
+  </head>
+  <body bgcolor="#CCC8AA">
+    <table cellspacing="20">
+      <tr>
+        <td><img src="imas.png" 
+            width="200"
+            alt="Foto Profil"></td>
+        <td>
+            <div id="text-container">
+                <h1>Imas Masrurroh</h1>
+            </div>
+            <script>
+                const textContainer = 
+                      document.getElementById("text-container");
+                
+                let hue = 0;
+          
+                setInterval(() => {
+                    hue = (hue + 1) % 360;
+                    const color = `hsl(${hue}, 100%, 50%)`;
+                    textContainer.style.color = color;
+                }, 50);
+          </script>
+        <p><em>Mahasiswa</em><strong>
+          <a href="https://unucirebon.ac.id" target="_blank">Universitas Nahdlatul Ulama Cirebon</a>
+          </strong></p>
+        <p><em><strong>Fakultas Ilmu Komputer</strong></em></p>
+        <p><em>Program Studi Teknik Informatika</em></p></td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Pendidikan</h3>
+    <table>
+      <tr>
+        <td>2009 - 2014</td>
+        <td>SD NEGERI 1 TANGKIL</td>
+      </tr>
+      <tr>
+        <td>2014 - 2017</td>
+        <td>SMP NEGERI 1 SUSUKAN</td>
+      </tr>
+      <tr>
+        <td>2017 - 2020</td>
+        <td>SMK DINAMIKA Arjawinangun</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Kontak saya</h3>
+    <table>
+      <tr>
+        <td>Email : imasmasrurroh123@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Instagram : @im_as_1150</td>
+      </tr>
+      <tr>
+        <td>Telepon : +62 831-4830-5899</td>
+      </tr>
+      <tr>
+        <td>Alamat : Jl. Ki Bagus Rangin No.02 Desa Tangkil, Kec. Susukan, Kab. Cirebon</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Hobi</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>Nonton Film & Drama</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Menyanyi</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+    </table>
+    <p>
+    <a href="hobi-saya.html">Hobi Saya</a>
+    <a href="kontak-saya.html">Hubungi Saya</a>
+    </p>
+  </body>
+</html>
